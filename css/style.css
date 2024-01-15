@@ -1,0 +1,27 @@
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    
+    
+}
+
+.card.person-card{
+    flex-basis: calc(100%/3 - 32px)
+    
+}

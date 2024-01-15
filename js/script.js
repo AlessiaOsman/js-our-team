@@ -52,7 +52,7 @@ for (let i = 0; i < team.length; i++) {
     // Creata card
     
     card += `
-    <div class="card mb-3">
+    <div class="card person-card">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="./img/${cardPic}" class="img-fluid rounded-start">
